@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.61topbaby.ecommerce</groupId>
+    <artifactId>ecommerce-emall</artifactId>
+    <version>2.1.6</version>
+  </parent>
+  
+  <groupId>com.61topbaby.ecommerce</groupId>
+  <artifactId>ecommerce-emall-marketing-batch</artifactId>
+  <name>ecommerce-emall-marketing-batch</name>
+  <version>1.0.0</version>
+  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <dependencies>
+    <!-- 营销活动基础服务 -->
+        <dependency>
+            <groupId>com.61topbaby.ecommerce</groupId>
+            <artifactId>ecommerce-emall-marketing</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <!-- 七牛云java SDK -->
+        <dependency>
+            <groupId>com.qiniu</groupId>
+            <artifactId>qiniu-java-sdk</artifactId>
+            <version>7.2.6</version>
+        </dependency>
+        <!-- Microsoft Office格式档案读和写API -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>3.15</version>
+        </dependency>
+  </dependencies>
+</project>
